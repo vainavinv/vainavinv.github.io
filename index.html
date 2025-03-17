@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,34 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1 style="color: pink;"> Welcome to my Website! </h1>
-    <h1> A copy </h1>
-    <h3 id = 'main'> About Me </h3>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <button id = "navigateButton">More!</button>
-    <script>
-        const navigateButton = document.getElementById('navigateButton')
-        navigateButton.addEventListener('click', function(){
-            window.location.href = 'test.html'
-        })
-    </script>
+    <main>
+        <h1>Welcome to My Website</h1>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="My Profile Picture" class="profile-image">
+        
+        <div id="main">
+            <h2>About Me</h2>
+            <p>Hi, My name is Vainavi Vuppu! I'm a student at Northeastern University studying computer science and business administration, with a concentration in Finance. This combined major allows me to grow both my technical skills and finance skills, preparing me for my career and giving me various options. 
+I love spending time with my family and friends, thrifting, trying new cafes, and art. I spend a lot of my free time doing cute things with my friends, taking pictures, and strolling through stores on Newbury St. My friends and I especially love exploring cute places around Boston and taking pictures. I have always loved taking pictures, whether it's of gorgeous views and delicious food, or for my family and friends.	
 
-    <p id = 'main'>My name is Vainavi Vuppu. </p>
+Last summer, I studied abroad in London with my friend and took a course at the London School of Economics. We did a lot of the things we do in Boston there and explored a lot more. There were so many good thrift stores, restaurants, and places to visit. We also travelled to Barcelona, Spain and Florence, Italy. I always wanted to travel more and ever since this trip, I fell in love with travelling and hope to visit many more places.
+</p>
+        </div>
+        
+        <div class="A">
+            <p>When I'm not coding or analyzing data, you can find me exploring nature trails, experimenting with new recipes, or attending tech meetups around campus. I believe in continuous learning and am always looking for new challenges that push my boundaries and help me grow both personally and professionally.</p>
+        </div>
+        
+        <p>I've always been fascinated by how data can tell compelling stories when presented effectively. My academic journey has led me through courses in statistics, programming, and design, all of which contribute to my holistic approach to data science projects.</p>
+        
+        <p>This website serves as a portfolio of my work and a platform to share my thoughts on topics I'm passionate about. Feel free to explore and get to know me better through the projects and content shared here.</p>
+        
+        <h2>My Interests</h2>
+        <ol>
+            <li>Data Visualization</li>
+            <li>Web Development</li>
+            <li>Machine Learning</li>
+            <li>User Experience Design</li>
+            <li>Open Source Projects</li>
+        </ol>
+    </main>
 
-    <p class = "A">I'm a <i>junior</i> day. </p>
-
-    <p>I will get an A in <b>DS4200</b>. </p>
-
-
-    <p>To do list: </p>
-    <ol>
-        <li>Talk to my TAs</li>
-        <li>Regrade your quiz</li>
-        <li>Read some paper</li>
-    </ol>
-
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1280px-Cat_August_2010-4.jpg" alt="" width = 500>
-
+    <footer>
+        <h3>Contact Information</h3>
+        <ul>
+            <li><a href="mailto:example@northeastern.edu">vuppu.v@northeastern.edu</a></li>
+            <li><a href="www.linkedin.com/in/vainavi-vuppu" target="_blank">LinkedIn</a></li>
+        </ul>
+        <p>&copy; 2025 My Personal Website</p>
+    </footer>
 </body>
 </html>
