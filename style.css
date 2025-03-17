@@ -1,21 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff; /* light purple background */
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-align: center;
-    color: purple;
+    color: #ff6b9d; /* pink */
+}
+
+h2 {
+    color: #333333; /* dark grey */
+    margin-top: 20px;
+}
+
+h3 {
+    color: #555555; /* medium grey */
 }
 
 p {
     width: 800px;
     margin: 0 auto;
-    color: blue;
+    color: #222222; /* near black */
+    line-height: 1.6;
 }
 
 #main {
-    color: green;
-    background-color: beige;
+    color: #9370db; /* medium purple */
+    background-color: white;
+    padding: 15px;
 }
 
 .A {
-    border: 5px solid black;
+    border: 5px solid #333333; /* dark grey */
     padding: 0 10px 20px 30px;
-    background-color: azure;
+    background-color: #ffeef5; /* very light pink */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    background-color: #333333; /* dark grey */
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #ff6b9d; /* pink */
+}
+
+/* Image styling */
+.profile-image, .interest-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border: 3px solid #333333; /* dark grey */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333333; /* dark grey */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ff6b9d; /* pink */
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
 }
